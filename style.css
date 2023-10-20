@@ -1,0 +1,70 @@
+
+.main{
+    text-align: center;
+}
+.add{
+    border-radius: 6px;
+    background-color: #98E4FF;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    border-color: #98E4FF;
+}
+.del{
+    border-radius: 6px;
+    background-color: #D80032;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+  
+    border-color: #D80032;
+}
+.input{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-size: larger;
+}
+.list{
+    background-color: bisque;
+}
+.heading{
+   
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.listdiv{
+    margin-top: 0;
+    background-color: #FFFD8C;
+  
+    margin: auto;
+    width: 50%;
+    font-family: cursive;
+    font-size: large;
+    font-style: italic;
+}
+.sub{
+
+
+    margin: auto;
+    width: 50%;
+    height: 500px;
+}
+.btndel{
+    background-color: red;
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
+    margin-left: 15px;
+    border: none;}
+
+
+  .btnedit{
+    background-color: #A2C579;
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
+    margin-left: 5px;
+    border: none;
+  }  

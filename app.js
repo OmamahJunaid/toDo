@@ -5,14 +5,14 @@ function addItems() {
     var liTxt =document.createTextNode(input.value)
     li.appendChild(liTxt)
     var btndel = document.createElement("button")
-    var btntxt = document.createTextNode("x")
+    var btntxt = document.createTextNode (" x ")
     btndel.appendChild(btntxt)
     li.appendChild(btndel)
     btndel.setAttribute("class","btndel")
     btndel.setAttribute("onclick","delvalue(this)")
   
     var btnedit = document.createElement("button")
-    var btntxt2 = document.createTextNode("+")
+    var btntxt2 = document.createTextNode(" + ")
     btnedit.appendChild(btntxt2)
     li.appendChild(btnedit)
     btnedit.setAttribute("class","btnedit")
@@ -31,3 +31,5 @@ function edit(e) {
   e.parentNode.firstChild.nodeValue = prompt("Enter New Value ....")
     
 }
+18
+

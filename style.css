@@ -55,16 +55,18 @@
     background-color: red;
     border-radius: 5px;
     color:white;
-    font-weight: bold;
+    font-weight: 600;
+ 
     margin-left: 15px;
     border: none;}
+    
 
 
   .btnedit{
     background-color: #A2C579;
     border-radius: 5px;
     color:white;
-    font-weight: bold;
+    font-weight: 600;
     margin-left: 5px;
     border: none;
   }  

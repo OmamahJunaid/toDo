@@ -1,6 +1,7 @@
 
 .main{
     text-align: center;
+   
 }
 .add{
     border-radius: 6px;
@@ -35,11 +36,13 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .listdiv{
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 0;
     background-color: #FFFD8C;
   
     margin: auto;
-    width: 50%;
+    width: 100%;
     font-family: cursive;
     font-size: large;
     font-style: italic;
